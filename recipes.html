@@ -1,0 +1,237 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipes | Areeba's Brownies</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: rgb(230, 200, 176);
+    font-family: Arial, sans-serif;
+    color: #4b3028;
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    color: rgba(255, 0, 119, 0.801);
+}
+
+nav {
+    text-align: center;
+    background: #f8e8dc;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 15px auto 25px;
+    max-width: 900px;
+}
+
+nav a {
+    color: #9b315d;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    color: #a33d68;
+}
+
+h3 {
+    color: #8b5260;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.recipe-card {
+    background: #fff7f0;
+    border: 2px solid #d99a9f;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.recipe-card li {
+    line-height: 1.6;
+}
+
+.time {
+    background: #f4d7d8;
+    padding: 8px;
+    border-radius: 7px;
+    color: #713d50;
+}
+
+footer {
+    margin-top: 30px;
+    color: #704b5a;
+    border-top: 1px solid #c58b87;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AREEBA'S BROWNIES</h1>
+    <p>Discover your next favourite brownie recipe!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="tips.html">Tips &amp; Gallery</a>
+</nav>
+
+<main>
+
+    <h2>Our Brownie Recipes</h2>
+    <p>Choose a recipe and enjoy baking delicious brownies!</p>
+
+    <div class="recipe-container">
+
+        <!-- Recipe 1 -->
+        <div class="recipe-card">
+
+            <img src="classic-brownies.jpg"
+                 alt="Classic chocolate brownies">
+
+            <h2>1. Classic Chocolate Brownies</h2>
+
+            <p class="time">
+                Preparation: 15 minutes |
+                Baking: 25 minutes
+            </p>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup flour</li>
+                <li>1/2 cup cocoa powder</li>
+                <li>1 cup sugar</li>
+                <li>2 eggs</li>
+                <li>1/2 cup melted butter</li>
+                <li>1 teaspoon vanilla essence</li>
+            </ul>
+
+            <h3>Method</h3>
+
+            <ol>
+                <li>Preheat oven to 180°C.</li>
+                <li>Mix butter and sugar.</li>
+                <li>Add eggs and vanilla.</li>
+                <li>Stir in flour and cocoa powder.</li>
+                <li>Bake for about 25 minutes.</li>
+            </ol>
+
+        </div>
+
+        <!-- Recipe 2 -->
+        <div class="recipe-card">
+
+            <img src="walnut-brownies.jpg"
+                 alt="Chocolate walnut brownies">
+
+            <h2>2. Chocolate Walnut Brownies</h2>
+
+            <p class="time">
+                Preparation: 15 minutes |
+                Baking: 25–30 minutes
+            </p>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup flour</li>
+                <li>1/2 cup cocoa powder</li>
+                <li>3/4 cup sugar</li>
+                <li>2 eggs</li>
+                <li>1/2 cup melted butter</li>
+                <li>1/2 cup chopped walnuts</li>
+            </ul>
+
+            <h3>Method</h3>
+
+            <ol>
+                <li>Preheat oven to 180°C.</li>
+                <li>Whisk eggs, sugar and butter.</li>
+                <li>Add flour and cocoa powder.</li>
+                <li>Fold in chopped walnuts.</li>
+                <li>Bake for 25–30 minutes.</li>
+            </ol>
+
+        </div>
+
+        <!-- Recipe 3 -->
+        <div class="recipe-card">
+
+            <img src="double-chocolate-brownies.jpg"
+                 alt="Double chocolate brownies">
+
+            <h2>3. Double Chocolate Brownies</h2>
+
+            <p class="time">
+                Preparation: 15 minutes |
+                Baking: 25 minutes
+            </p>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup flour</li>
+                <li>1/2 cup cocoa powder</li>
+                <li>3/4 cup sugar</li>
+                <li>2 eggs</li>
+                <li>1/2 cup melted butter</li>
+                <li>1/2 cup chocolate chips</li>
+            </ul>
+
+            <h3>Method</h3>
+
+            <ol>
+                <li>Preheat oven to 180°C.</li>
+                <li>Mix butter and sugar.</li>
+                <li>Beat in eggs.</li>
+                <li>Stir in flour and cocoa powder.</li>
+                <li>Add chocolate chips and bake for 25 minutes.</li>
+            </ol>
+
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>Made with love by Areeba Riaz | Roll Number: 26i-3301</p>
+</footer>
+
+</body>
+</html>

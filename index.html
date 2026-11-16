@@ -3,54 +3,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script>function myfunc(){alert(Start cooking)}
-    </script>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Areeba's Brownies</title>
+<link rel="stylesheet" href="style.css">
+
 <style>
-table, th, td {
-  border:1px solid black;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: rgb(230, 200, 176);
+    font-family: Arial, sans-serif;
+    color: #4b3028;
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    color: rgba(255, 0, 119, 0.801);
+}
+
+nav {
+    text-align: center;
+    background: #f8e8dc;
+    padding: 14px;
+    border-radius: 10px;
+    margin: 15px auto 25px;
+    max-width: 900px;
+}
+
+nav a {
+    color: #9b315d;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 14px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background: #fff7f0;
+    border: 2px solid #d99a9f;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+main img {
+    width: min(100%, 450px);
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #a33d68;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 22px auto;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #704b5a;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #f4d7d8;
+    color: #713d50;
+}
+
+button {
+    background: rgba(255, 0, 119, 0.801);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 11px 20px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 30px;
+    color: #704b5a;
+    border-top: 1px solid #c58b87;
 }
 </style>
+</head>
+
 <body>
+
+<header>
     <h1>AREEBA'S BROWNIES</h1>
+    <p>Welcome to my little corner of chocolate and sweetness!</p>
+</header>
 
-    <img src="image.jpg" alt="Recipe Card" width="450" height="550">
-<table>
-  <tr>
-    <th>Ingredients</th>
-    <th>Steps</th>
-    <th>Serving</th>
-  </tr>
-  <tr>
-    <td>Flour
-    </td>
-    <td>Mix Flour and chocolate.
+<nav>
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="tips.html">Tips &amp; Gallery</a>
+</nav>
 
-    </td>
-    <td>2-3 person</td>
-  </tr>
-  <tr>
-    <td>Chocolate</td>
-    <td>Add eggs and milk.</td>
-  </tr>
-  <tr>
-    <td>Eggs</td>
-    <td>Whisk well.</td>
-   
-  </tr>
-  <tr>
-    <td>Milk</td>
-    <td>Put it in oven for 25 mins.</td>
-    
-  </tr>
-</table>
-<button onclick="alert('Start Cooking')">Start Cooking</button>
+<main>
 
-    
+    <h2>My Favourite Brownie Recipe</h2>
+
+    <img src="image.jpg" alt="Areeba's brownie recipe card">
+
+    <h2>Ingredients and Steps</h2>
+
+    <table>
+        <tr>
+            <th>Ingredients</th>
+            <th>Steps</th>
+            <th>Serving</th>
+        </tr>
+
+        <tr>
+            <td>Flour</td>
+            <td>Mix flour and chocolate.</td>
+            <td rowspan="4">2–3 persons</td>
+        </tr>
+
+        <tr>
+            <td>Chocolate</td>
+            <td>Add eggs and milk.</td>
+        </tr>
+
+        <tr>
+            <td>Eggs</td>
+            <td>Whisk well.</td>
+        </tr>
+
+        <tr>
+            <td>Milk</td>
+            <td>Pour into a baking pan and bake for 25 minutes.</td>
+        </tr>
+    </table>
+
+    <button onclick="alert('Start Cooking!')">
+        Start Cooking
+    </button>
+
+</main>
+
+<footer>
+    <p>Made with love by Areeba Riaz | Roll Number: 26i-3301</p>
+</footer>
+
 </body>
-
 </html>
+
