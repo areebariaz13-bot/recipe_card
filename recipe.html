@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Areeba's Brownies | Recipes</title>
+
+    <!-- Connecting existing CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: rgb(230, 200, 176);
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            padding: 15px;
+        }
+
+        h1 {
+            color: rgba(255, 0, 119, 0.801);
+        }
+
+        h2 {
+            color: #a34e65;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #713d35;
+            background-color: #f8e9dc;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 18px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        nav a:hover {
+            background-color: #efb6c9;
+        }
+
+        main {
+            max-width: 950px;
+            margin: auto;
+        }
+
+        .intro, .recipe-card {
+            background-color: #fff5eb;
+            padding: 22px;
+            margin: 20px 0;
+            border-radius: 15px;
+        }
+
+        .recipe-card {
+            text-align: left;
+        }
+
+        .recipe-image {
+            display: block;
+            width: 100%;
+            max-width: 450px;
+            height: 260px;
+            object-fit: cover;
+            margin: 15px auto;
+            border-radius: 12px;
+        }
+
+        .recipe-details {
+            background-color: #f4d8c5;
+            padding: 12px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        li {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .recipe-button {
+            display: inline-block;
+            background-color: #b65372;
+            color: white;
+            padding: 11px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .recipe-button:hover {
+            background-color: #873c55;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .intro, .recipe-card {
+                padding: 16px;
+            }
+
+            nav a {
+                padding: 9px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>AREEBA'S BROWNIES</h1>
+        <p>Let's make something chocolatey and delicious!</p>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recipes.html">Recipes</a>
+            <a href="tips.html">Tips &amp; Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h2>Explore Our Brownie Recipes!</h2>
+
+            <p>
+                Welcome to our recipe collection! Here you will find
+                three delicious brownie recipes. Choose your favourite
+                and enjoy baking something chocolatey at home.
+            </p>
+        </section>
+
+        <!-- Recipe 1 -->
+        <section class="recipe-card">
+
+            <h2>1. Classic Chocolate Brownies</h2>
+
+            <img src="classic-brownies.jpg"
+                 alt="Classic homemade chocolate brownies"
+                 class="recipe-image">
+
+            <p>
+                These classic chocolate brownies are soft, rich and
+                fudgy. They are perfect for chocolate lovers!
+            </p>
+
+            <div class="recipe-details">
+                <strong>Preparation Time:</strong> 15 minutes
+                <br>
+                <strong>Baking Time:</strong> 25 minutes
+                <br>
+                <strong>Serving:</strong> 4 people
+            </div>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup all-purpose flour</li>
+                <li>1 cup melted chocolate</li>
+                <li>2 eggs</li>
+                <li>1/2 cup sugar</li>
+                <li>1/2 cup melted butter</li>
+                <li>1 teaspoon vanilla essence</li>
+            </ul>
+
+            <h3>Preparation Steps</h3>
+
+            <ol>
+                <li>Preheat the oven to 180°C.</li>
+                <li>Mix melted butter and sugar in a bowl.</li>
+                <li>Add eggs and vanilla essence.</li>
+                <li>Mix in the melted chocolate and flour.</li>
+                <li>Pour the mixture into a greased baking tray.</li>
+                <li>Bake for 25 minutes and allow to cool.</li>
+            </ol>
+
+            <a href="#top" class="recipe-button">Back to Recipes</a>
+
+        </section>
+
+        <!-- Recipe 2 -->
+        <section class="recipe-card">
+
+            <h2>2. Chocolate Walnut Brownies</h2>
+
+            <img src="walnut-brownies.jpg"
+                 alt="Chocolate brownies topped with walnuts"
+                 class="recipe-image">
+
+            <p>
+                These brownies combine delicious chocolate with
+                crunchy walnuts. They are a great choice for anyone
+                who enjoys a little crunch in every bite.
+            </p>
+
+            <div class="recipe-details">
+                <strong>Preparation Time:</strong> 15 minutes
+                <br>
+                <strong>Baking Time:</strong> 25–30 minutes
+                <br>
+                <strong>Serving:</strong> 4 people
+            </div>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup all-purpose flour</li>
+                <li>1/2 cup cocoa powder</li>
+                <li>2 eggs</li>
+                <li>1/2 cup sugar</li>
+                <li>1/2 cup melted butter</li>
+                <li>1/2 cup chopped walnuts</li>
+                <li>1 teaspoon vanilla essence</li>
+            </ul>
+
+            <h3>Preparation Steps</h3>
+
+            <ol>
+                <li>Preheat the oven to 180°C.</li>
+                <li>Mix melted butter and sugar together.</li>
+                <li>Add eggs and vanilla essence.</li>
+                <li>Add flour and cocoa powder and mix well.</li>
+                <li>Fold in the chopped walnuts.</li>
+                <li>Pour the mixture into a baking tray.</li>
+                <li>Bake for 25–30 minutes and let them cool.</li>
+            </ol>
+
+            <a href="#top" class="recipe-button">Back to Recipes</a>
+
+        </section>
+
+        <!-- Recipe 3 -->
+        <section class="recipe-card">
+
+            <h2>3. Double Chocolate Brownies</h2>
+
+            <img src="double-chocolate-brownies.jpg"
+                 alt="Double chocolate brownies with chocolate chunks"
+                 class="recipe-image">
+
+            <p>
+                If you love extra chocolate, this recipe is for you!
+                These brownies are filled with chocolate chunks
+                for an extra rich and delicious taste.
+            </p>
+
+            <div class="recipe-details">
+                <strong>Preparation Time:</strong> 15 minutes
+                <br>
+                <strong>Baking Time:</strong> 25 minutes
+                <br>
+                <strong>Serving:</strong> 4 people
+            </div>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>1 cup all-purpose flour</li>
+                <li>1/2 cup cocoa powder</li>
+                <li>2 eggs</li>
+                <li>1/2 cup sugar</li>
+                <li>1/2 cup melted butter</li>
+                <li>1/2 cup chocolate chips</li>
+                <li>1 teaspoon vanilla essence</li>
+            </ul>
+
+            <h3>Preparation Steps</h3>
+
+            <ol>
+                <li>Preheat the oven to 180°C.</li>
+                <li>Mix butter and sugar in a large bowl.</li>
+                <li>Add eggs and vanilla essence.</li>
+                <li>Add flour and cocoa powder.</li>
+                <li>Mix in the chocolate chips.</li>
+                <li>Pour the batter into a greased baking tray.</li>
+                <li>Bake for 25 minutes and allow to cool.</li>
+            </ol>
+
+            <a href="#top" class="recipe-button">Back to Recipes</a>
+
+        </section>
+
+        <!-- Closing Section -->
+        <section class="intro">
+            <h2>Happy Baking!</h2>
+
+            <p>
+                We hope you enjoy trying these delicious brownie
+                recipes. Choose your favourite, gather your ingredients
+                and start baking!
+            </p>
+
+            <a href="index.html" class="recipe-button">
+                Back to Home
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>Made with love by Areeba Riaz 🍫</p>
+        <p>Roll Number: 26i-3301</p>
+    </footer>
+
+</body>
+</html>
