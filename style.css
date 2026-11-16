@@ -7,3 +7,8 @@ h1 {
 p {
   color: black;
 }
+footer,
+footer p,
+footer a {
+    color: brown
+}
